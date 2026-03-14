@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 227.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a9e4962fa4eb046",
+  "active": "9c392224520d0761",
   "lastOpenFiles": [
     "汇编语言学习.md",
     "存储单元.md",
