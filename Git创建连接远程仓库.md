@@ -19,8 +19,10 @@ yourName是用户名，repositoryname是仓库名字
 
 git pull origin "分支名"
 # 5.查看工作目录状态
-
+```
 git status
+```
+**如果是新仓库就将需要同步的文件使用`git add`添加到追踪文件目录中**
 # 6.提交更改，添加备注信息
 ```
 git commit -m "备注信息"

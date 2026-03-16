@@ -25,6 +25,14 @@ git commit
 ```
 git rm <file>
 ```
+#### 从 Git 索引中移除（不删除本地物理文件）
+
+在终端执行：
+```
+git rm -r --cached <filename>
+```
+
+- --cached 参数的意思是：**只告诉 Git 把这个文件夹从管理名单里踢出去，但别动我电脑硬盘里的实际文件。**
 ## 移动文件
 ```
 git mv <file_from> <file_to>
