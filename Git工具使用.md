@@ -76,9 +76,6 @@
 - **配置远程（以 Gitee 为例）**
   1. 在 Gitee 创建私有仓库（如 `my-obsidian-notes`）。
   2. 在 Obsidian 命令面板运行 **Git: Edit remote**，远程名填 `origin`，URL 粘贴 Gitee 仓库的 HTTPS 地址。
-- **生成访问令牌**
-  1. 进入 Gitee → 设置 → 安全设置 → 私人令牌。
-  2. 创建新令牌，至少勾选 `projects`、`hook` 权限，并妥善保存一次性显示的令牌。
 - **同步与自动化**
 - 打开 **Git: Open source control view** 查看待提交文件，按需 `Commit`、`Pull`、`Push`。
 - 插件设置里可开启自动提交、自动推送或按时间间隔同步，让 Obsidian 启动时自动拉取/推送。
